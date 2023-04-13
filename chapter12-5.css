@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./image/main/main_background.jpg');
+  background-size : cover;
+  position: relative;
+}
+
+.main-img {
+  width: 800px;
+  height: auto;
+  position: absolute;
+  transform: translate(70%, 5%);
+  top: 40px;
+}
+
+.main {
+  width: 800px;
+}
+
+.subtext02 {
+  position: absolute;
+  transform: translate(0%, -150%);
+}
+
+button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  transform: translate(0%, 0%);
+  width: 400px;
+  height: 100vh;
+}
+
+.go {
+  position: absolute;
+  transform: translate(355%, 0%);
+  width: 420px;
+  height: 100vh;
+}

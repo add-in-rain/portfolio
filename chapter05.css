@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./image/main/main_background.jpg');
+  background-size : cover;
+  position: relative;
+}
+
+.background-box {
+  position: absolute;
+  transform: translate(0%, 0%);
+  width: 450px;
+  height: 100vh;
+  background-color: #38B6A2;
+}
+
+header {
+  width: 100vw;
+  position: relative;
+  display: flex;
+}
+
+.titleline {
+  position: absolute;
+  margin-top: 10px;
+}
+
+.title {
+  width: 420px;
+  height: 300px;
+  position: absolute;
+  transform: translate(320%, 50%);
+  display: flex;
+  justify-content: flex-end;
+  align-items :flex-start;
+}
+
+.chapter-number {
+  position: absolute;
+}
+
+.chapter-title {
+  position: absolute;
+  margin-top: 60px;
+}
+
+.chapter-subtitle {
+  position: absolute;
+  margin-top: 95px;
+}
+
+.chapter-line {
+  position: absolute;
+  margin-top: 120px;
+}
+
+.chapter-text {
+  position: absolute;
+  margin-top: 140px;
+}
+
+.main-wrapper {
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+}
+
+.main-img {
+  position: absolute;
+  width: 800px;
+  height: 850px;
+  transform: translate(10%, 0%);
+  top: 66.3px;
+}
+
+.main-img-text {
+  position: absolute;
+  transform: translate(300%, 780%);
+}
+
+.sub-img {
+  position: absolute;
+  transform: translate(270%, 140%);
+}
+
+button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  transform: translate(0%, 0%);
+  width: 400px;
+  height: 100vh;
+}
+
+.go {
+  position: absolute;
+  transform: translate(355%, 0%);
+  width: 420px;
+  height: 100vh;
+}

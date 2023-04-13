@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./image/main/main_background.jpg');
+  background-size : cover;
+  position: relative;
+}
+
+.background-box {
+  position: absolute;
+  transform: translate(0%, 108.5%);
+  width: 100vw;
+  height: 449px;
+  background-color: #EF94BC;
+}
+
+header {
+  width: 90vw;
+  position: relative;
+  display: flex;
+}
+
+.nav-line {
+  display: block;
+  width: 270px;
+  height: 45px;
+  margin-top: 40px;
+}
+
+.bookcoverdesign {
+  position: absolute;
+  margin-left: 87px;
+}
+
+.titleline {
+  position: absolute;
+  margin-top: 10px;
+}
+
+.title {
+  width: 420px;
+  height: 300px;
+  position: absolute;
+  transform: translate(30%, 35%);
+  display: flex;
+  justify-content: flex-start;
+  align-items :flex-start;
+}
+
+
+.chapter-number {
+  position: absolute;
+}
+
+.chapter-title {
+  position: absolute;
+  margin-top: 60px;
+}
+
+.chapter-subtitle {
+  position: absolute;
+  margin-top: 95px;
+}
+
+.chapter-line {
+  position: absolute;
+  margin-top: 120px;
+}
+
+.chapter-text {
+  position: absolute;
+  margin-top: 140px;
+}
+
+.main-wrapper {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  transform: translate(120%, -5%);
+}
+
+.sub-img {
+  width: 630;
+  height: 420;
+  position: absolute;
+  transform: translate(18%, 100%);
+}
+
+button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  transform: translate(0%, -10%);
+  width: 400px;
+  height: 100vh;
+}
+
+.go {
+  position: absolute;
+  transform: translate(355%, -10%);
+  width: 420px;
+  height: 100vh;
+}

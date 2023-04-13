@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./image/main/main_background.jpg');
+  background-size : cover;
+  position: relative;
+}
+
+
+header {
+  width: 90vw;
+  /* position: relative; */
+  display: flex;
+}
+
+.title {
+  width: 420px;
+  height: 300px;
+  position: absolute;
+  transform: translate(304%, 15%);
+  display: flex;
+  justify-content: flex-start;
+  align-items :flex-start;
+}
+
+
+.chapter-number {
+  position: absolute;
+}
+
+.chapter-title {
+  position: absolute;
+  margin-top: 60px;
+}
+
+.chapter-subtitle {
+  position: absolute;
+  margin-top: 95px;
+}
+
+.chapter-line {
+  position: absolute;
+  margin-top: 120px;
+}
+
+.chapter-text {
+  position: absolute;
+  margin-top: 140px;
+}
+
+.sig {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 330px;
+  left: 1275px;
+}
+
+.signature {
+  position: absolute;
+}
+
+.signatureimg {
+  position: absolute;
+  top: 50px;
+}
+
+.main-img {
+  position: absolute;
+  transform: translate(20%, -3%);
+}
+
+.subtext01 {
+  position: absolute;
+  transform: translate(169.4%, -205%);
+}
+
+.sub01 {
+  position: absolute;
+  transform: translate(34.4%, -105%);
+}
+
+button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  transform: translate(0%, -45%);
+  width: 400px;
+  height: 100vh;
+}
+
+.go {
+  position: absolute;
+  transform: translate(355%, -45%);
+  width: 420px;
+  height: 100vh;
+}

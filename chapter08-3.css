@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./image/main/main_background.jpg');
+  background-size : cover;
+  position: relative;
+}
+
+.main-img-title { 
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  margin-top: 310px;
+  margin-left: 270px;
+}
+
+.main-img-text {
+  position: absolute;
+}
+
+.subline {
+  position: absolute; 
+  transform: translate(0%, 550%);
+}
+
+.main03 {
+  position: absolute; 
+  transform: translate(80%, 15%);
+}
+
+.main03-2 {
+  position: absolute; 
+  transform: translate(30%, 60%);
+}
+
+button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  transform: translate(0%, 0%);
+  width: 400px;
+  height: 100vh;
+}
+
+.go {
+  position: absolute;
+  transform: translate(355%, 0%);
+  width: 420px;
+  height: 100vh;
+}

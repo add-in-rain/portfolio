@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./image/main/main_background.jpg');
+  background-size : cover;
+}
+
+.background-box {
+  position: relative;
+  display: block;
+  height: 250px;
+  background-color: #70C7D6;
+  top: 530px;
+}
+
+header {
+  width: 100vw;
+  position: relative;
+  display: flex;
+}
+
+.nav-line {
+  display: block;
+  width: 270px;
+  height: 45px;
+  margin-top: 40px;
+}
+
+.webdesgin {
+  position: absolute;
+  margin-left: 130px;
+}
+
+.titleline {
+  position: absolute;
+  margin-top: 10px;
+}
+
+.title {
+  width: 420px;
+  height: 300px;
+  position: absolute;
+  transform: translate(320%, 15%);
+  display: flex;
+  justify-content: flex-end;
+  align-items :flex-start;
+}
+
+.chapter-number {
+  position: absolute;
+}
+
+.chapter-title {
+  position: absolute;
+  margin-top: 60px;
+}
+
+.chapter-subtitle {
+  position: absolute;
+  margin-top: 95px;
+}
+
+.chapter-line {
+  position: absolute;
+  margin-top: 120px;
+}
+
+.chapter-text {
+  position: absolute;
+  margin-top: 140px;
+}
+
+.main-wrapper {
+  position: absolute;
+}
+
+/* .main-img img {
+  width: auto; height: auto;
+  max-width: 700px;
+} */
+
+.main-img {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translate(121%, 12%);
+}
+
+.monitor {
+  position: absolute;
+  width: 800px;
+  object-fit:cover;
+}
+
+.monitor-main {
+  width: 760px;
+  object-fit:cover;
+  margin-bottom: 80px;
+}
+
+.sub-img {
+  width: 500px;
+  height: 800px;
+  position: absolute;
+  transform: translate(30%, -25%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-img01 {
+  position: absolute;
+  margin-top: -500px;
+}
+
+.sub-img02 {
+  position: absolute;
+}
+
+.sub-img03 {
+  position: absolute;
+  margin-top: 500px;
+}
+
+button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  transform: translate(0%, -60%);
+  width: 400px;
+  height: 160vh;
+}
+
+.go {
+  position: absolute;
+  transform: translate(355%, -60%);
+  width: 420px;
+  height: 160vh;
+}

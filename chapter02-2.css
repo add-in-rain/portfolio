@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url('./image/main/main_background.jpg');
+  background-size : cover;
+  position: relative;
+}
+
+.background-box {
+  position: absolute;
+  transform: translate(734%, 0%);
+  width: 230px;
+  height: 100vh;
+  background-color: #FBD500;
+}
+
+header {
+  width: 90vw;
+  position: relative;
+  display: flex;
+}
+
+.nav-line {
+  display: block;
+  width: 270px;
+  height: 45px;
+  margin-top: 40px;
+}
+
+.mediadesign {
+  position: absolute;
+  margin-left: 120px;
+}
+
+.titleline {
+  position: absolute;
+  margin-top: 10px;
+}
+
+.main-wrapper {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  margin-left: 170px;
+}
+
+.sub-nav {
+  width: 275px;
+  height: 50px;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: -20px;
+}
+
+.sub02 {
+  position: absolute;
+  margin-top: -30px;
+
+}
+
+.sub03 {
+  position: absolute;
+  margin-top: -30px;
+}
+
+.subline {
+  position: absolute;
+  margin-top: -10px;
+}
+
+.signature {
+  margin-bottom: 50px;
+}
+
+.main-nav {
+  position: absolute;
+  transform: translate(130%, -96.3%);
+  overflow: hidden;
+  height: 810px;
+  width: 700px;
+}
+
+button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  transform: translate(0%, -10%);
+  width: 400px;
+  height: 100vh;
+}
+
+.go {
+  position: absolute;
+  transform: translate(355%, -10%);
+  width: 420px;
+  height: 100vh;
+}

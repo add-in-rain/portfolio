@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./image/main/main_background.jpg');
+  background-size : cover;
+  position: relative;
+}
+
+
+header {
+  width: 90vw;
+  /* position: relative; */
+  display: flex;
+}
+
+.title {
+  width: 420px;
+  height: 300px;
+  position: absolute;
+  transform: translate(194%, 45%);
+  display: flex;
+  justify-content: flex-start;
+  align-items :flex-start;
+}
+
+
+.chapter-number {
+  position: absolute;
+}
+
+.chapter-title {
+  position: absolute;
+  margin-top: 60px;
+}
+
+.chapter-subtitle {
+  position: absolute;
+  margin-top: 95px;
+}
+
+.chapter-line {
+  position: absolute;
+  margin-top: 120px;
+}
+
+.chapter-text {
+  position: absolute;
+  margin-top: 140px;
+}
+
+
+.main-wrapper {
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+}
+
+
+.main-img {
+  position: absolute;
+  transform: translate(20%, 5%);
+}
+
+.main {
+  width: 640px;
+  object-fit: cover;
+}
+
+.sub01 {
+  position: absolute;
+  transform: translate(100%, 162%);
+}
+
+
+button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  transform: translate(0%, 0%);
+  width: 400px;
+  height: 100vh;
+}
+
+.go {
+  position: absolute;
+  transform: translate(355%, 0%);
+  width: 420px;
+  height: 100vh;
+}

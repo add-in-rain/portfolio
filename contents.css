@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./image/index/background.jpg');
+  background-size : cover;
+}
+
+.background {
+  width: 160vh;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  top: 30px;
+}
+
+.background-img {
+  width: 160vh;
+  height: 90vh;
+}
+
+
+.first-line {
+  width: 70vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 50px;
+
+}
+
+
+
+.Edu {
+  margin-bottom: 120px;
+}
+
+.Edu-list {
+ margin-left: 70px;
+}
+
+.Sub-title {
+  margin-left: auto;
+}
+
+
+.second-line {
+  width: 70vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 250px;
+}
+
+.Work {
+  margin-bottom: 170px;
+}
+
+.Work-list {
+  margin-left: 28px;
+}
+
+.Per {
+  margin-bottom: 170px;
+  margin-left: 80px;
+}
+
+.Per-img {
+  width: 300px;
+  height: 300px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  margin-left: -60px;
+}
+
+.Per-img01 {
+  position: absolute;
+}
+
+.Per-img02 {
+  position: absolute;
+}
+
+.Per-img03 {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 43px;
+}
+
+.third-line {
+  width: 70vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 580px;
+}
+
+.Cer-nav {
+  width: 150px;
+  height: 200px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cer {
+  position: absolute;
+  margin-bottom: 150px;
+}
+
+.Cer02 {
+  position: absolute;
+  margin-top: 170px;
+}
+
+.Cer-list-nav {
+  width: 250px;
+  height: 200px;
+  display : flex ;
+  justify-content: start;
+  align-items: center;
+  margin-left: 55px;
+}
+
+.Cer-list {
+  position: absolute;
+  margin-bottom: 55px;
+}
+
+.Cer02-list {
+  position: absolute;
+  margin-top: 170px;
+}
+
+.Inter {
+  margin-bottom: 150px;
+  margin-left: 130px;
+}
+
+.Inter-img {
+  width: 180px;
+  height: 180px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.Inter-img01 {
+  position: absolute;
+}
+
+.Inter-part01 {
+  position: absolute;
+  margin-bottom: 155px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.Inter-part01:hover {
+  transform: scale(1.2);
+}
+
+.Inter-part02 {
+  position: absolute;
+  margin-bottom: 115px;
+  margin-left: 115px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.Inter-part02:hover {
+  transform: scale(1.2);
+}
+
+.Inter-part03 {
+  position: absolute;
+  margin-left: 155px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.Inter-part03:hover {
+  transform: scale(1.2);
+}
+
+.Inter-part04 {
+  position: absolute;
+  margin-top: 115px;
+  margin-left: 115px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.Inter-part04:hover {
+  transform: scale(1.2);
+}
+
+.Inter-part05 {
+  position: absolute;
+  margin-top: 155px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.Inter-part05:hover {
+  transform: scale(1.2);
+}
+
+.Inter-part06 {
+  position: absolute;
+  margin-top: 115px;
+  margin-right: 115px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.Inter-part06:hover {
+  transform: scale(1.2);
+}
+
+.Inter-part07 {
+  position: absolute;
+  margin-right: 155px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.Inter-part07:hover {
+  transform: scale(1.2);
+}
+
+.Inter-part08 {
+  position: absolute;
+  margin-bottom: 115px;
+  margin-right: 115px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.Inter-part08:hover {
+  transform: scale(1.2);
+}
+
+.Des-nav {
+  width: 400px;
+  height: 200px;
+  display : flex ;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.Des {
+  margin-bottom: 150px;
+}
+
+.Des-list {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.Des-img {
+  margin-top: 27px;
+  margin-left: 20px;
+}
+
+button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  transform: translate(0%, -90%);
+  width: 400px;
+  height: 100vh;
+}
+
+.go {
+  position: absolute;
+  transform: translate(540%, -90%);
+  width: 300px;
+  height: 100vh;
+}

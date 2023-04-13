@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./image/main/main_background.jpg');
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+}
+
+
+.Main-title {
+  margin-left: 400px;
+}
+
+.Text {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: -600px;
+  margin-bottom: 180px;
+}
+
+button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  transform: translate(0%, -60%);
+  width: 400px;
+  height: 160vh;
+}
+
+.go {
+  position: absolute;
+  transform: translate(350%, -100%);
+  width: 420px;
+  height: 100vh;
+}

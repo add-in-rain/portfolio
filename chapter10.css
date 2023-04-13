@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./image/main/main_background.jpg');
+  background-size : cover;
+  position: relative;
+}
+
+
+header {
+  width: 90vw;
+  /* position: relative; */
+  display: flex;
+}
+
+.nav-line {
+  display: block;
+  width: 270px;
+  height: 45px;
+  margin-top: 40px;
+}
+
+.printedsign {
+  position: absolute;
+  margin-left: 64px;
+}
+
+.titleline {
+  position: absolute;
+  margin-top: 10px;
+}
+
+.title {
+  width: 420px;
+  height: 300px;
+  position: absolute;
+  transform: translate(30%, 45%);
+  display: flex;
+  justify-content: flex-start;
+  align-items :flex-start;
+}
+
+
+.chapter-number {
+  position: absolute;
+}
+
+.chapter-title {
+  position: absolute;
+  margin-top: 60px;
+}
+
+.chapter-subtitle {
+  position: absolute;
+  margin-top: 95px;
+}
+
+.chapter-line {
+  position: absolute;
+  margin-top: 120px;
+}
+
+.chapter-text {
+  position: absolute;
+  margin-top: 140px;
+}
+
+.main-wrapper {
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+}
+
+.sig {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 380px;
+  left: 120px;
+}
+
+.signature {
+  position: absolute;
+}
+.subline {
+  position: absolute;
+  top: 22px;
+}
+
+.signatureimg {
+  position: absolute;
+  top: 50px;
+}
+
+.main-img {
+  position: absolute;
+  transform: translate(80%, 0%);
+}
+
+.sub01 {
+  position: absolute;
+  transform: translate(100%, 180%);
+}
+
+.sub02 {
+  position: absolute;
+  transform: translate(820%, 0%);
+  top: 90px;
+}
+
+
+button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  transform: translate(0%, -10%);
+  width: 400px;
+  height: 100vh;
+}
+
+.go {
+  position: absolute;
+  transform: translate(355%, -10%);
+  width: 420px;
+  height: 100vh;
+}
+
+

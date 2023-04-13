@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.btn-po {
+  width: 388px;
+  height: 128px;
+  /* position: relative; */
+  background-image: url(./image/button/button-bar.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.btn-po-line {
+  position: absolute;
+  width: 330px;
+  height: 75px;
+  margin-left: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back {
+  /* position: absolute; */
+  width: 75px;
+  height: 75px;
+  background-image: url(./image/button/back01.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.back:active {
+  background-image: url(./image/button/back02.png);
+}
+
+.go {
+  /* position: absolute; */
+  width: 75px;
+  height: 75px;
+  background-image: url(./image/button/go01.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.go:active {
+  background-image: url(./image/button/go02.png);
+}
+
+.menu {
+  /* position: absolute; */
+  width: 75px;
+  height: 75px;
+  background-image: url(./image/button/menu01.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.menu:active {
+  background-image: url(./image/button/menu02.png);
+}
+
+.play {
+  /* position: absolute; */
+  width: 75px;
+  height: 75px;
+  background-image: url(./image/button/play01.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.play:active {
+  background-image: url(./image/button/play02.png);
+}

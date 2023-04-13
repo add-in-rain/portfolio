@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./image/main/main_background.jpg');
+  background-size : cover;
+  /* position: relative; */
+}
+
+header {
+  width: 90vw;
+  position: relative;
+  display: flex;
+}
+
+.nav-line {
+  display: block;
+  width: 270px;
+  height: 45px;
+  margin-top: 40px;
+}
+
+.bookdesgin {
+  position: absolute;
+  margin-left: 125px;
+}
+
+.titleline {
+  position: absolute;
+  margin-top: 10px;
+}
+
+.main-wrapper {
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+}
+
+.main-img {
+  position: absolute;
+  transform: translate(30%, -2%); 
+}
+
+.sub-img {
+  position: absolute;
+  transform: translate(120%, 60%)
+}
+
+button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  transform: translate(0%, -10%);
+  width: 400px;
+  height: 100vh;
+}
+
+.go {
+  position: absolute;
+  transform: translate(355%, -10%);
+  width: 420px;
+  height: 100vh;
+}
