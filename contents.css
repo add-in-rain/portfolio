@@ -5,7 +5,6 @@
 }
 
 body {
-  max-width: 1800px;
   background-image: url('./image/index/background.jpg');
   background-size : cover;
 }
